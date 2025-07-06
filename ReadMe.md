@@ -1,6 +1,6 @@
 ## wsdl to java
 
-convert wsdl file to java file using jaxws-maven-plugi dependency.
+convert wsdl file to java file using jaxws-maven-plugin dependency.
 
 ### Usage
 
@@ -27,10 +27,10 @@ convert wsdl file to java file using jaxws-maven-plugi dependency.
     </configuration>
 </plugin>
 ```
-wsdlDirectory -> directory that contains wsdl files.
-packageName -> ur project package name
-sourceDestDir -> output directory (generated java classes directory)
+- wsdlDirectory -> directory that contains wsdl files.
+- packageName -> ur project package name
+- sourceDestDir -> output directory (generated java classes directory)
 
 
-for using run -> mvn clean install
-or jaxws:wsimport
+
+for using run -> mvn clean install or jaxws:wsimport
