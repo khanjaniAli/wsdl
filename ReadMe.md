@@ -1,6 +1,6 @@
 ## wsdl to java
 
-convert wsdl file to java file using jaxws-maven-plugi dependency.
+convert wsdl file to java file using jaxws-maven-plugin dependency.
 
 ### Usage
 
